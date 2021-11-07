@@ -4,7 +4,7 @@ type Props = {
     page: SalePage;
     onPageChange: Function;
 }
-const Pagination = ({ page, onPageChange } : Props) => {
+const Pagination = ({ page, onPageChange }: Props) => {
     return (
         <div className="row d-flex justify-content-center">
             <nav>
